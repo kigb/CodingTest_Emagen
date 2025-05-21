@@ -15,7 +15,7 @@
 ```
 
 ## 任务说明
-### 任务一（25分）
+### 任务一 实现workflow的执行（25分）
 需要实现 `workflows/simple_workflow.py` 中的 `Workflow.execute()` 方法。该方法需要：
 
 1. 按照tools列表中的顺序依次执行工具
@@ -23,7 +23,7 @@
 3. 处理可能的错误情况
 4. 返回最终的执行结果
 
-### 任务2：实现 Workflow.text2workflow()
+### 任务2：实现 Workflow.text2workflow() （25分）
 面试者需要实现 `workflows/simple_workflow.py` 中的 `Workflow.text2workflow()` 方法。该方法需要：
 
 1. 使用LLM分析文本描述，理解用户意图
